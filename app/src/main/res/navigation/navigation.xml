@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/logoFragment">
+
+    <fragment
+        android:id="@+id/logoFragment"
+        android:name="com.application.dripjoycoffee.LogoFragment"
+        android:label="fragment_logo"
+        tools:layout="@layout/fragment_logo">
+        <action
+            android:id="@+id/action_logoFragment_to_diamondFragment"
+            app:destination="@id/diamondFragment"
+            app:enterAnim="@android:anim/fade_in"
+            app:exitAnim="@android:anim/fade_out" />
+    </fragment>
+    <fragment
+        android:id="@+id/diamondFragment"
+        android:name="com.application.dripjoycoffee.DiamondFragment"
+        android:label="fragment_diamond"
+        tools:layout="@layout/fragment_diamond" >
+        <action
+            android:id="@+id/action_diamondFragment_to_loginFragment"
+            app:destination="@id/loginFragment" />
+        <action
+            android:id="@+id/action_diamondFragment_to_loginFragment2"
+            app:destination="@id/loginFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/loginFragment"
+        android:name="com.application.dripjoycoffee.LoginFragment"
+        android:label="fragment_login"
+        tools:layout="@layout/fragment_login" >
+        <action
+            android:id="@+id/action_loginFragment_to_diamondFragment"
+            app:destination="@id/diamondFragment" />
+        <action
+            android:id="@+id/action_loginFragment_to_homeFragment"
+            app:destination="@id/homeFragment" />
+        <action
+            android:id="@+id/action_loginFragment_to_signup1Fragment2"
+            app:destination="@id/signup1Fragment2" />
+        <action
+            android:id="@+id/action_loginFragment_to_signup1Fragment22"
+            app:destination="@id/signup1Fragment2" />
+    </fragment>
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.application.dripjoycoffee.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_homeFragment_to_profileFragment"
+            app:destination="@id/profileFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_latteFragment"
+            app:destination="@id/latteFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_americanoFragment"
+            app:destination="@id/americanoFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_cappuccinoFragment"
+            app:destination="@id/cappuccinoFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_espressoFragment"
+            app:destination="@id/espressoFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_macchiatoFragment"
+            app:destination="@id/macchiatoFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_caramelFragment"
+            app:destination="@id/caramelFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_chocoFragment"
+            app:destination="@id/chocoFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_settingsFragment"
+            app:destination="@id/settingsFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_loginFragment"
+            app:destination="@id/loginFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="com.application.dripjoycoffee.ProfileFragment"
+        android:label="fragment_profile"
+        tools:layout="@layout/fragment_profile" >
+        <action
+            android:id="@+id/action_profileFragment_to_homeFragment"
+            app:destination="@id/homeFragment" />
+        <action
+            android:id="@+id/action_profileFragment_to_editFragment"
+            app:destination="@id/editFragment" />
+        <action
+            android:id="@+id/action_profileFragment_to_loginFragment"
+            app:destination="@id/loginFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/latteFragment"
+        android:name="com.application.dripjoycoffee.LatteFragment"
+        android:label="fragment_latte"
+        tools:layout="@layout/fragment_latte" >
+        <action
+            android:id="@+id/action_latteFragment_to_homeFragment"
+            app:destination="@id/homeFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/americanoFragment"
+        android:name="com.application.dripjoycoffee.AmericanoFragment"
+        android:label="fragment_americano"
+        tools:layout="@layout/fragment_americano" >
+        <action
+            android:id="@+id/action_americanoFragment_to_homeFragment"
+            app:destination="@id/homeFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/cappuccinoFragment"
+        android:name="com.application.dripjoycoffee.CappuccinoFragment"
+        android:label="fragment_cappuccino"
+        tools:layout="@layout/fragment_cappuccino" >
+        <action
+            android:id="@+id/action_cappuccinoFragment_to_homeFragment"
+            app:destination="@id/homeFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/espressoFragment"
+        android:name="com.application.dripjoycoffee.EspressoFragment"
+        android:label="fragment_espresso"
+        tools:layout="@layout/fragment_espresso" >
+        <action
+            android:id="@+id/action_espressoFragment_to_homeFragment"
+            app:destination="@id/homeFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/macchiatoFragment"
+        android:name="com.application.dripjoycoffee.MacchiatoFragment"
+        android:label="fragment_macchiato"
+        tools:layout="@layout/fragment_macchiato" >
+        <action
+            android:id="@+id/action_macchiatoFragment_to_homeFragment"
+            app:destination="@id/homeFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/caramelFragment"
+        android:name="com.application.dripjoycoffee.CaramelFragment"
+        android:label="fragment_caramel"
+        tools:layout="@layout/fragment_caramel" >
+        <action
+            android:id="@+id/action_caramelFragment_to_homeFragment"
+            app:destination="@id/homeFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/chocoFragment"
+        android:name="com.application.dripjoycoffee.ChocoFragment"
+        android:label="fragment_choco"
+        tools:layout="@layout/fragment_choco" >
+        <action
+            android:id="@+id/action_chocoFragment_to_homeFragment"
+            app:destination="@id/homeFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/settingsFragment"
+        android:name="com.application.dripjoycoffee.SettingsFragment"
+        android:label="fragment_settings"
+        tools:layout="@layout/fragment_settings" >
+        <action
+            android:id="@+id/action_settingsFragment_to_homeFragment"
+            app:destination="@id/homeFragment" />
+        <action
+            android:id="@+id/action_settingsFragment_to_profileFragment"
+            app:destination="@id/profileFragment" />
+        <action
+            android:id="@+id/action_settingsFragment_to_loginFragment"
+            app:destination="@id/loginFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/editFragment"
+        android:name="com.application.dripjoycoffee.EditFragment"
+        android:label="fragment_edit"
+        tools:layout="@layout/fragment_edit" >
+        <action
+            android:id="@+id/action_editFragment_to_profileFragment"
+            app:destination="@id/profileFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/signup1Fragment2"
+        android:name="com.application.dripjoycoffee.Signup1Fragment"
+        android:label="fragment_signup1"
+        tools:layout="@layout/fragment_signup1" >
+        <action
+            android:id="@+id/action_signup1Fragment2_to_loginFragment"
+            app:destination="@id/loginFragment" />
+        <action
+            android:id="@+id/action_signup1Fragment2_to_signup2Fragment2"
+            app:destination="@id/signup2Fragment2" />
+    </fragment>
+    <fragment
+        android:id="@+id/signup2Fragment2"
+        android:name="com.application.dripjoycoffee.Signup2Fragment"
+        android:label="fragment_signup2"
+        tools:layout="@layout/fragment_signup2" >
+        <action
+            android:id="@+id/action_signup2Fragment2_to_signup1Fragment2"
+            app:destination="@id/signup1Fragment2" />
+        <action
+            android:id="@+id/action_signup2Fragment2_to_loginFragment"
+            app:destination="@id/loginFragment" />
+    </fragment>
+</navigation>
