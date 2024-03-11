@@ -12,7 +12,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="36dp"
-        android:text="Welcome to DripJoy Coffee"
+        android:text="Welcome to our shop"
         android:textColor="@color/black"
         android:textSize="15dp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -25,8 +25,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
-        android:text="Home"
-        android:textColor="@color/fwb"
+        android:text="Products"
+        android:textColor="@color/black"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.08"
         app:layout_constraintStart_toStartOf="parent"
@@ -73,7 +73,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="4dp"
-                android:text="Products"
+                android:text="Rejuvenating/Scrub"
                 android:textColor="@color/black"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.084"
@@ -107,7 +107,7 @@
                         android:layout_marginStart="23dp"
                         android:layout_marginTop="16dp"
                         android:layout_marginBottom="0dp"
-                        android:background="@drawable/rounded_panel_2" />
+                        android:background="@drawable/rounded_panel" />
 
                     <ImageView
                         android:id="@+id/imageView6"
@@ -119,7 +119,7 @@
                         android:layout_marginStart="17dp"
                         android:layout_marginTop="17dp"
                         android:layout_marginEnd="18dp"
-                        android:src="@drawable/coffee" />
+                        android:src="@drawable/kojicacidsoap" />
 
                     <TextView
                         android:id="@+id/Latte_txt"
@@ -131,7 +131,7 @@
                         android:layout_marginStart="16dp"
                         android:layout_marginTop="10dp"
                         android:layout_marginBottom="107dp"
-                        android:text="Latte"
+                        android:text="Kojic"
                         android:textColor="@color/white" />
 
                     <TextView
@@ -161,8 +161,7 @@
                         android:layout_marginTop="-98dp"
                         android:layout_marginEnd="19dp"
                         android:layout_marginBottom="28dp"
-                        android:text="latte You can't go wrong with a classic latte.
-                        Espresso topped with foamy milk—heaven in a cup."
+                        android:text="The Brilliant Skin Rejuvenating Set is an all-in-one masterpiece that poses benefits like anti-acne properties to make your skin look younger."
                         android:textColor="@color/white"
                         android:textSize="10dp" />
 
@@ -176,7 +175,7 @@
                         android:layout_marginTop="15dp"
                         android:layout_marginBottom="1dp"
                         android:layout_toEndOf="@+id/Latte"
-                        android:background="@drawable/rounded_panel_2" />
+                        android:background="@drawable/rounded_panel" />
 
                     <ImageView
                         android:id="@+id/imageView7"
@@ -188,7 +187,7 @@
                         android:layout_marginStart="17dp"
                         android:layout_marginTop="17dp"
                         android:layout_marginEnd="18dp"
-                        android:src="@drawable/coffee" />
+                        android:src="@drawable/southgirlsrejuvset" />
 
                     <TextView
                         android:id="@+id/Americano_txt"
@@ -200,7 +199,7 @@
                         android:layout_marginStart="16dp"
                         android:layout_marginTop="10dp"
                         android:layout_marginBottom="107dp"
-                        android:text="Americano"
+                        android:text="southgirls"
                         android:textColor="@color/white" />
 
                     <TextView
@@ -230,7 +229,7 @@
                         android:layout_marginTop="-98dp"
                         android:layout_marginEnd="19dp"
                         android:layout_marginBottom="28dp"
-                        android:text="Espresso shots are topped with water to produce a light layer of crema, then served over ice. The result is this wonderfully rich cup with depth and nuance."
+                        android:text="Micro peeling effect Removes pimple marks and dark spot Reduces pores Whitens and brightens Pinkish glowing skin Mild safe and effective Wrinkles"
                         android:textColor="@color/white"
                         android:textSize="10dp" />
 
@@ -244,7 +243,7 @@
                         android:layout_marginTop="15dp"
                         android:layout_marginBottom="1dp"
                         android:layout_toEndOf="@+id/Americano"
-                        android:background="@drawable/rounded_panel_2" />
+                        android:background="@drawable/rounded_panel" />
 
                     <ImageView
                         android:id="@+id/imageView8"
@@ -256,7 +255,7 @@
                         android:layout_marginStart="17dp"
                         android:layout_marginTop="17dp"
                         android:layout_marginEnd="18dp"
-                        android:src="@drawable/coffee" />
+                        android:src="@drawable/sakura" />
 
                     <TextView
                         android:id="@+id/Cappuccino_txt"
@@ -268,7 +267,7 @@
                         android:layout_marginStart="16dp"
                         android:layout_marginTop="10dp"
                         android:layout_marginBottom="107dp"
-                        android:text="Cappuccino"
+                        android:text="sakura"
                         android:textColor="@color/white" />
 
                     <TextView
@@ -298,7 +297,7 @@
                         android:layout_marginTop="-98dp"
                         android:layout_marginEnd="19dp"
                         android:layout_marginBottom="28dp"
-                        android:text="Dark, rich espresso lies in wait under a smoothed and stretched layer of thick milk foam. An alchemy of barista artistry and craft."
+                        android:text="The Sakura Skincare Set harnesses the power of cherry blossom extract for radiant and healthy skin."
                         android:textColor="@color/white"
                         android:textSize="10dp" />
 
@@ -312,7 +311,7 @@
                         android:layout_marginTop="15dp"
                         android:layout_marginBottom="1dp"
                         android:layout_toEndOf="@+id/Cappuccino"
-                        android:background="@drawable/rounded_panel_2" />
+                        android:background="@drawable/rounded_panel" />
 
                     <ImageView
                         android:id="@+id/imageView9"
@@ -324,7 +323,7 @@
                         android:layout_marginStart="17dp"
                         android:layout_marginTop="17dp"
                         android:layout_marginEnd="18dp"
-                        android:src="@drawable/coffee" />
+                        android:src="@drawable/salicylic" />
 
                     <TextView
                         android:id="@+id/Espresso_txt"
@@ -336,7 +335,7 @@
                         android:layout_marginStart="16dp"
                         android:layout_marginTop="10dp"
                         android:layout_marginBottom="107dp"
-                        android:text="Espresso"
+                        android:text="skinever"
                         android:textColor="@color/white" />
 
                     <TextView
@@ -366,7 +365,7 @@
                         android:layout_marginTop="-98dp"
                         android:layout_marginEnd="19dp"
                         android:layout_marginBottom="28dp"
-                        android:text="Our smooth signature Espresso Roast with rich flavor and caramelly sweetness is at the very heart of everything we do."
+                        android:text="Salicylic Refreshing Scrub Cleanser can deeply cleansing the skin, its unique natural exfoliating particles can gently remove dead skin cells and clean pores."
                         android:textColor="@color/white"
                         android:textSize="10dp" />
 
@@ -380,7 +379,7 @@
                         android:layout_marginTop="15dp"
                         android:layout_marginBottom="1dp"
                         android:layout_toEndOf="@+id/Espresso"
-                        android:background="@drawable/rounded_panel_2" />
+                        android:background="@drawable/rounded_panel" />
 
                     <ImageView
                         android:id="@+id/imageView10"
@@ -392,7 +391,7 @@
                         android:layout_marginStart="17dp"
                         android:layout_marginTop="17dp"
                         android:layout_marginEnd="18dp"
-                        android:src="@drawable/coffee" />
+                        android:src="@drawable/senana" />
 
                     <TextView
                         android:id="@+id/Macchiato_txt"
@@ -404,7 +403,7 @@
                         android:layout_marginStart="16dp"
                         android:layout_marginTop="10dp"
                         android:layout_marginBottom="107dp"
-                        android:text="Macchiato"
+                        android:text="senana"
                         android:textColor="@color/white" />
 
                     <TextView
@@ -435,9 +434,11 @@
                         android:layout_marginTop="-98dp"
                         android:layout_marginEnd="19dp"
                         android:layout_marginBottom="28dp"
-                        android:text="Deliciously creamy and indulgent beverage with signature espresso, white mocha sauce, rich and creamy coconut milk and mocha drizzle."
+                        android:text="Facial scrubs are a type of exfoliant that remove the build-up of dead skin cells on the surface of your skin and they range from physical scrubs to exfoliating acids."
                         android:textColor="@color/white"
                         android:textSize="10dp" />
+
+
 
                 </RelativeLayout>
             </HorizontalScrollView>
@@ -481,7 +482,7 @@
                         android:layout_marginStart="23dp"
                         android:layout_marginTop="16dp"
                         android:layout_marginBottom="0dp"
-                        android:background="@drawable/rounded_panel_2" />
+                        android:background="@drawable/rounded_panel" />
 
                     <ImageView
                         android:id="@+id/special_img_main"
@@ -493,7 +494,7 @@
                         android:layout_marginStart="17dp"
                         android:layout_marginTop="17dp"
                         android:layout_marginEnd="18dp"
-                        android:src="@drawable/coffee" />
+                        android:src="@drawable/cetaphil" />
 
                     <TextView
                         android:id="@+id/Caramell"
@@ -505,7 +506,7 @@
                         android:layout_marginStart="16dp"
                         android:layout_marginTop="10dp"
                         android:layout_marginBottom="107dp"
-                        android:text="Caramel"
+                        android:text="cetaphil"
                         android:textColor="@color/white" />
 
                     <TextView
@@ -535,8 +536,7 @@
                         android:layout_marginTop="-98dp"
                         android:layout_marginEnd="19dp"
                         android:layout_marginBottom="28dp"
-                        android:text="latte You can't go wrong with a classic latte.
-                        Espresso topped with foamy milk—heaven in a cup."
+                        android:text="This gentle cleansing formula, now with hydrating Glycerin, Vitamin B3 and Pro-Vitamin B5, is clinically tested to be gentle at removing dirt."
                         android:textColor="@color/white"
                         android:textSize="10dp" />
 
@@ -550,7 +550,7 @@
                         android:layout_marginTop="16dp"
                         android:layout_marginBottom="0dp"
                         android:layout_toEndOf="@+id/Caramel"
-                        android:background="@drawable/rounded_panel_2" />
+                        android:background="@drawable/rounded_panel" />
 
                     <ImageView
                         android:id="@+id/special_img_second"
@@ -562,11 +562,11 @@
                         android:layout_marginStart="17dp"
                         android:layout_marginTop="17dp"
                         android:layout_marginEnd="18dp"
-                        android:src="@drawable/coffee" />
+                        android:src="@drawable/eskinol" />
 
                     <TextView
                         android:id="@+id/Choco_txt"
-                        android:layout_width="42dp"
+                        android:layout_width="45dp"
                         android:layout_height="17dp"
                         android:layout_below="@+id/special_img_second"
                         android:layout_alignStart="@+id/Choco"
@@ -574,7 +574,7 @@
                         android:layout_marginStart="16dp"
                         android:layout_marginTop="10dp"
                         android:layout_marginBottom="107dp"
-                        android:text="Choco"
+                        android:text="Eskinol"
                         android:textColor="@color/white" />
 
                     <TextView
@@ -582,12 +582,11 @@
                         android:layout_width="37dp"
                         android:layout_height="17dp"
                         android:layout_below="@+id/special_img_second"
-                        android:layout_alignEnd="@+id/special2"
                         android:layout_alignParentBottom="true"
-                        android:layout_marginStart="52dp"
-                        android:layout_marginTop="10dp"
+                        android:layout_marginStart="-80dp"
+                        android:layout_marginTop="11dp"
                         android:layout_marginEnd="19dp"
-                        android:layout_marginBottom="107dp"
+                        android:layout_marginBottom="106dp"
                         android:layout_toEndOf="@+id/Choco"
                         android:text="P200"
                         android:textColor="@color/white" />
@@ -604,8 +603,7 @@
                         android:layout_marginTop="-98dp"
                         android:layout_marginEnd="19dp"
                         android:layout_marginBottom="28dp"
-                        android:text="latte You can't go wrong with a classic latte.
-                        Espresso topped with foamy milk—heaven in a cup."
+                        android:text="It brightens and reduces the appearance of dark spots with consistent usage, leaving your skin visibly clearer and smoother."
                         android:textColor="@color/white"
                         android:textSize="10dp" />
 
@@ -621,7 +619,7 @@
         android:layout_width="366dp"
         android:layout_height="52dp"
 
-        android:background="@color/primary_color"
+        android:background="@color/white"
 
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -632,7 +630,7 @@
         android:id="@+id/home"
         android:layout_width="98dp"
         android:layout_height="52dp"
-        android:backgroundTint="@color/primary_color"
+        android:backgroundTint="@color/black"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="@+id/option"
         app:layout_constraintHorizontal_bias="0.063"
@@ -669,7 +667,7 @@
         android:id="@+id/logout"
         android:layout_width="98dp"
         android:layout_height="52dp"
-        android:backgroundTint="@color/primary_color"
+        android:backgroundTint="@color/black"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="@+id/option"
         app:layout_constraintHorizontal_bias="0.642"
@@ -707,7 +705,7 @@
         android:layout_width="98dp"
         android:layout_height="52dp"
         android:layout_marginBottom="4dp"
-        android:backgroundTint="@color/primary_color"
+        android:backgroundTint="@color/black"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="@+id/option"
         app:layout_constraintHorizontal_bias="0.176"
@@ -739,5 +737,15 @@
         app:layout_constraintHorizontal_bias="0.494"
         app:layout_constraintStart_toStartOf="@+id/profile"
         app:layout_constraintTop_toBottomOf="@+id/profile_img" />
+
+    <ImageView
+        android:id="@+id/imageView13"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/skinshiplogo"
+        app:layout_constraintEnd_toStartOf="@+id/settings"
+        app:layout_constraintHorizontal_bias="0.096"
+        app:layout_constraintStart_toEndOf="@+id/textView8"
+        tools:layout_editor_absoluteY="-3dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

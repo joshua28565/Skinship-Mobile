@@ -16,7 +16,7 @@
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/dripjoy_logo" />
+        app:srcCompat="@drawable/skinshiplogo" />
 
     <TextView
         android:id="@+id/textView"
@@ -26,7 +26,7 @@
         android:layout_marginTop="116dp"
         android:text="Sign Up"
         android:textAlignment="center"
-        android:textColor="@color/primary_color"
+        android:textColor="@color/black"
         android:textSize="30sp"
 
         android:textStyle="bold"
@@ -40,8 +40,8 @@
         android:layout_height="wrap_content"
 
         android:layout_marginTop="8dp"
-        android:text="It's easier to sign up now"
-        android:textColor="@color/secondary_color"
+        android:text="Create your account"
+        android:textColor="@color/black"
 
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
@@ -55,8 +55,8 @@
 
         android:layout_marginTop="24dp"
         android:backgroundTint="@color/white"
-        android:text="I'll use nickname or phone"
-        android:textColor="@color/secondary_color"
+        android:text="Email or Phone"
+        android:textColor="@color/black"
         app:layout_constraintEnd_toEndOf="parent"
 
         app:layout_constraintHorizontal_bias="0.496"
@@ -73,7 +73,7 @@
         android:layout_marginTop="32dp"
         android:text="Already have account?"
 
-        android:textColor="@color/secondary_color"
+        android:textColor="@color/black"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.347"
         app:layout_constraintStart_toStartOf="parent"
@@ -88,7 +88,7 @@
         android:backgroundTint="@color/white"
         android:text="Login"
         android:textAlignment="center"
-        android:textColor="@color/primary_color"
+        android:textColor="@color/black"
         android:textSize="35px"
         android:textStyle="bold"
 

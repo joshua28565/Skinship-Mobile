@@ -14,7 +14,7 @@
 
         android:layout_marginTop="72dp"
 
-        android:background="@drawable/rounded_panel"
+        android:background="@color/black"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView3" />
@@ -24,7 +24,7 @@
         android:layout_width="153dp"
         android:layout_height="146dp"
         android:layout_marginTop="68dp"
-        android:src="@drawable/dripjoy_logo"
+        android:src="@drawable/skinshiplogo"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.501"
         app:layout_constraintStart_toStartOf="parent"
@@ -56,8 +56,8 @@
 
         android:layout_marginTop="12dp"
         android:layout_marginEnd="70dp"
-        android:text="Explore and discover the newest platform"
-        android:textColor="@color/secondary_color"
+        android:text="Log in your account"
+        android:textColor="@color/white"
 
         android:textSize="35px"
         app:layout_constraintEnd_toEndOf="@+id/view"
@@ -75,7 +75,7 @@
         android:ems="10"
         android:inputType="text"
 
-        android:hint="Nickname"
+        android:hint="Email"
         android:textColorHint="@color/white"
         android:textColor="@color/white"
         android:textSize="40px"
@@ -131,15 +131,14 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="47dp"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="24dp"
         android:layout_marginEnd="71dp"
-
-        android:text="--------------------------------------- or --------------------------------------"
+        android:text="or"
         android:textColor="@color/white"
         android:textSize="35px"
 
         app:layout_constraintEnd_toEndOf="@+id/view"
-        app:layout_constraintHorizontal_bias="0.125"
+        app:layout_constraintHorizontal_bias="0.546"
         app:layout_constraintStart_toStartOf="@+id/view"
         app:layout_constraintTop_toBottomOf="@+id/login" />
 
